@@ -24,7 +24,7 @@ Isso resultou em um **"Super Dataset" Balanceado** com **10.782 notícias**, rig
 * **Scikit-Learn:** Machine Learning (Regressão Logística).
 * **TF-IDF:** Vetorização de texto.
 * **NLTK:** Processamento de texto e stopwords.
-* **Streamlit:** 
+* **Streamlit:** Framework utilizado para criar a interface web interativa de testes.
 
 ### 🛠️ Metodologias 
 * **Modelo:** Regressão Logística (*Logistic Regression*). Escolhido por ser um modelo "White Box" (transparente), permitindo auditoria de pesos e correção de vieses.
@@ -37,7 +37,7 @@ Isso resultou em um **"Super Dataset" Balanceado** com **10.782 notícias**, rig
 
 ## 📂 Estrutura do Projeto
 
-'''text
+'''bash
 ia/
 ├── data/
 │   ├── raw/            # Datasets originais (.csv)
