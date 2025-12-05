@@ -1,0 +1,15 @@
+# Ignorar ambiente virtual (OBRIGATÓRIO)
+.venv/
+venv/
+env/
+
+# Ignorar arquivos compilados do Python
+__pycache__/
+*.pyc
+
+# (Opcional) Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# (Opcional) Ignorar a pasta de modelos se for MUITO pesada (acima de 100MB)
+# data/models/
