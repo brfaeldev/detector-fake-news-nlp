@@ -18,7 +18,7 @@ Isso resultou em um **"Super Dataset" Balanceado** com **10.782 notícias**, rig
 
 ## 🛠️ Tecnologias e Metodologia Utilizadas no Projeto
 
-### 🛠️ Tecnologias 
+### 💻 Tecnologias 
 * **Python 3.13.7**
 * **Pandas:** Manipulação de dados.
 * **Scikit-Learn:** Machine Learning (Regressão Logística).
@@ -26,7 +26,7 @@ Isso resultou em um **"Super Dataset" Balanceado** com **10.782 notícias**, rig
 * **NLTK:** Processamento de texto e stopwords.
 * **Streamlit:** Framework utilizado para criar a interface web interativa de testes.
 
-### 🛠️ Metodologias 
+### 🧠 Metodologias 
 * **Modelo:** Regressão Logística (*Logistic Regression*). Escolhido por ser um modelo "White Box" (transparente), permitindo auditoria de pesos e correção de vieses.
 * **Vetorização:** TF-IDF (Term Frequency-Inverse Document Frequency).
 * **Split de Treino/Teste:** 70% para Treino e 30% para Validação (com estratificação).
@@ -37,7 +37,7 @@ Isso resultou em um **"Super Dataset" Balanceado** com **10.782 notícias**, rig
 
 ## 📂 Estrutura do Projeto
 
-'''bash
+```bash
 ia/
 ├── data/
 │   ├── raw/            # Datasets originais (.csv)
@@ -55,7 +55,7 @@ ia/
 │   └── ver_pesos.py       # Diagnóstico de viés (pesos das palavras)
 ├── README.md              # Documentação do projeto
 └── requirements.txt       # Lista de dependências
-'''
+```
 
 ---
 
